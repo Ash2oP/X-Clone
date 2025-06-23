@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon-template {
+    @apply hover:bg-[rgb(62,65,68)] w-36 h-14 rounded-full flex flex-row gap-4 items-center ml-3;
+}
+
+.icon-span-template {
+    @apply w-20 h-8 text-xl text-white font-bold;
+}
+
+.border-all-children > * {
+    @apply border border-gray-500;
+}
