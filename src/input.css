@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .icon-template {
-    @apply hover:bg-[rgb(62,65,68)] w-36 h-14 rounded-full flex flex-row gap-4 items-center ml-3;
+    @apply hover:bg-[rgb(62,65,68)] max-w-48 h-14 rounded-full flex flex-row items-center justify-start gap-4;
 }
 
 .icon-span-template {
-    @apply w-20 h-8 text-xl text-white font-bold;
+    @apply max-w-36 h-8 text-xl text-white font-bold !p-0 hidden md:block;
 }
 
 .border-all-children > * {
