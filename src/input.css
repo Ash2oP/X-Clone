@@ -21,3 +21,7 @@ button {
 .hover-gray-shade > div {
     @apply hover:bg-[rgb(40,41,41)];
 }
+
+.post-buttons-template {
+    @apply w-9 h-9 rounded-full hover:bg-blue-300 flex justify-center items-center;
+}
